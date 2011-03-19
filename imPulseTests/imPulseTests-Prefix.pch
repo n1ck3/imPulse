@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'imPulseTests' target in the 'imPulseTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

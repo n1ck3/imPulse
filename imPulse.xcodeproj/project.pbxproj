@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4140381A1334E32F000A5B0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414038191334E32F000A5B0D /* UIKit.framework */; };
+		4140381C1334E32F000A5B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140381B1334E32F000A5B0D /* Foundation.framework */; };
+		4140381E1334E32F000A5B0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140381D1334E32F000A5B0D /* CoreGraphics.framework */; };
+		414038201334E32F000A5B0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140381F1334E32F000A5B0D /* CoreData.framework */; };
+		414038261334E32F000A5B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 414038241334E32F000A5B0D /* InfoPlist.strings */; };
+		414038291334E32F000A5B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 414038281334E32F000A5B0D /* main.m */; };
+		4140382C1334E32F000A5B0D /* imPulseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140382B1334E32F000A5B0D /* imPulseAppDelegate.m */; };
+		4140382F1334E32F000A5B0D /* imPulse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4140382D1334E32F000A5B0D /* imPulse.xcdatamodeld */; };
+		414038321334E32F000A5B0D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414038301334E32F000A5B0D /* MainWindow.xib */; };
+		414038351334E32F000A5B0D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414038341334E32F000A5B0D /* MainViewController.m */; };
+		414038371334E32F000A5B0D /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414038361334E32F000A5B0D /* MainView.xib */; };
+		4140383A1334E32F000A5B0D /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414038391334E32F000A5B0D /* FlipsideViewController.m */; };
+		4140383C1334E32F000A5B0D /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4140383B1334E32F000A5B0D /* FlipsideView.xib */; };
+		414038431334E330000A5B0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414038191334E32F000A5B0D /* UIKit.framework */; };
+		414038441334E330000A5B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140381B1334E32F000A5B0D /* Foundation.framework */; };
+		414038451334E330000A5B0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140381D1334E32F000A5B0D /* CoreGraphics.framework */; };
+		414038461334E330000A5B0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140381F1334E32F000A5B0D /* CoreData.framework */; };
+		4140384E1334E330000A5B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4140384C1334E330000A5B0D /* InfoPlist.strings */; };
+		414038511334E330000A5B0D /* imPulseTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 414038501334E330000A5B0D /* imPulseTests.h */; };
+		414038531334E330000A5B0D /* imPulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414038521334E330000A5B0D /* imPulseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		414038471334E330000A5B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4140380C1334E32F000A5B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 414038141334E32F000A5B0D;
+			remoteInfo = imPulse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		414038151334E32F000A5B0D /* imPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		414038191334E32F000A5B0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4140381B1334E32F000A5B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4140381D1334E32F000A5B0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4140381F1334E32F000A5B0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		414038231334E32F000A5B0D /* imPulse-Info.plist */ = {isa = PBXFileReference; path = "imPulse-Info.plist"; sourceTree = "<group>"; };
+		414038251334E32F000A5B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		414038271334E32F000A5B0D /* imPulse-Prefix.pch */ = {isa = PBXFileReference; path = "imPulse-Prefix.pch"; sourceTree = "<group>"; };
+		414038281334E32F000A5B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4140382A1334E32F000A5B0D /* imPulseAppDelegate.h */ = {isa = PBXFileReference; path = imPulseAppDelegate.h; sourceTree = "<group>"; };
+		4140382B1334E32F000A5B0D /* imPulseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imPulseAppDelegate.m; sourceTree = "<group>"; };
+		4140382E1334E32F000A5B0D /* imPulse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = imPulse.xcdatamodel; sourceTree = "<group>"; };
+		414038311334E32F000A5B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		414038331334E32F000A5B0D /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		414038341334E32F000A5B0D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		414038361334E32F000A5B0D /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		414038381334E32F000A5B0D /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		414038391334E32F000A5B0D /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		4140383B1334E32F000A5B0D /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		414038421334E330000A5B0D /* imPulseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imPulseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4140384B1334E330000A5B0D /* imPulseTests-Info.plist */ = {isa = PBXFileReference; path = "imPulseTests-Info.plist"; sourceTree = "<group>"; };
+		4140384D1334E330000A5B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4140384F1334E330000A5B0D /* imPulseTests-Prefix.pch */ = {isa = PBXFileReference; path = "imPulseTests-Prefix.pch"; sourceTree = "<group>"; };
+		414038501334E330000A5B0D /* imPulseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imPulseTests.h; sourceTree = "<group>"; };
+		414038521334E330000A5B0D /* imPulseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imPulseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414038121334E32F000A5B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4140381A1334E32F000A5B0D /* UIKit.framework in Frameworks */,
+				4140381C1334E32F000A5B0D /* Foundation.framework in Frameworks */,
+				4140381E1334E32F000A5B0D /* CoreGraphics.framework in Frameworks */,
+				414038201334E32F000A5B0D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4140383E1334E32F000A5B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414038431334E330000A5B0D /* UIKit.framework in Frameworks */,
+				414038441334E330000A5B0D /* Foundation.framework in Frameworks */,
+				414038451334E330000A5B0D /* CoreGraphics.framework in Frameworks */,
+				414038461334E330000A5B0D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4140380A1334E32F000A5B0D = {
+			isa = PBXGroup;
+			children = (
+				414038211334E32F000A5B0D /* imPulse */,
+				414038491334E330000A5B0D /* imPulseTests */,
+				414038181334E32F000A5B0D /* Frameworks */,
+				414038161334E32F000A5B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		414038161334E32F000A5B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414038151334E32F000A5B0D /* imPulse.app */,
+				414038421334E330000A5B0D /* imPulseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		414038181334E32F000A5B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414038191334E32F000A5B0D /* UIKit.framework */,
+				4140381B1334E32F000A5B0D /* Foundation.framework */,
+				4140381D1334E32F000A5B0D /* CoreGraphics.framework */,
+				4140381F1334E32F000A5B0D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		414038211334E32F000A5B0D /* imPulse */ = {
+			isa = PBXGroup;
+			children = (
+				4140382A1334E32F000A5B0D /* imPulseAppDelegate.h */,
+				4140382B1334E32F000A5B0D /* imPulseAppDelegate.m */,
+				414038301334E32F000A5B0D /* MainWindow.xib */,
+				414038331334E32F000A5B0D /* MainViewController.h */,
+				414038341334E32F000A5B0D /* MainViewController.m */,
+				414038361334E32F000A5B0D /* MainView.xib */,
+				414038381334E32F000A5B0D /* FlipsideViewController.h */,
+				414038391334E32F000A5B0D /* FlipsideViewController.m */,
+				4140383B1334E32F000A5B0D /* FlipsideView.xib */,
+				4140382D1334E32F000A5B0D /* imPulse.xcdatamodeld */,
+				414038221334E32F000A5B0D /* Supporting Files */,
+			);
+			path = imPulse;
+			sourceTree = "<group>";
+		};
+		414038221334E32F000A5B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				414038231334E32F000A5B0D /* imPulse-Info.plist */,
+				414038241334E32F000A5B0D /* InfoPlist.strings */,
+				414038271334E32F000A5B0D /* imPulse-Prefix.pch */,
+				414038281334E32F000A5B0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		414038491334E330000A5B0D /* imPulseTests */ = {
+			isa = PBXGroup;
+			children = (
+				414038501334E330000A5B0D /* imPulseTests.h */,
+				414038521334E330000A5B0D /* imPulseTests.m */,
+				4140384A1334E330000A5B0D /* Supporting Files */,
+			);
+			path = imPulseTests;
+			sourceTree = "<group>";
+		};
+		4140384A1334E330000A5B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4140384B1334E330000A5B0D /* imPulseTests-Info.plist */,
+				4140384C1334E330000A5B0D /* InfoPlist.strings */,
+				4140384F1334E330000A5B0D /* imPulseTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414038141334E32F000A5B0D /* imPulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414038561334E330000A5B0D /* Build configuration list for PBXNativeTarget "imPulse" */;
+			buildPhases = (
+				414038111334E32F000A5B0D /* Sources */,
+				414038121334E32F000A5B0D /* Frameworks */,
+				414038131334E32F000A5B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imPulse;
+			productName = imPulse;
+			productReference = 414038151334E32F000A5B0D /* imPulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		414038411334E32F000A5B0D /* imPulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414038591334E330000A5B0D /* Build configuration list for PBXNativeTarget "imPulseTests" */;
+			buildPhases = (
+				4140383D1334E32F000A5B0D /* Sources */,
+				4140383E1334E32F000A5B0D /* Frameworks */,
+				4140383F1334E32F000A5B0D /* Resources */,
+				414038401334E32F000A5B0D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				414038481334E330000A5B0D /* PBXTargetDependency */,
+			);
+			name = imPulseTests;
+			productName = imPulseTests;
+			productReference = 414038421334E330000A5B0D /* imPulseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4140380C1334E32F000A5B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Saddleback College";
+			};
+			buildConfigurationList = 4140380F1334E32F000A5B0D /* Build configuration list for PBXProject "imPulse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4140380A1334E32F000A5B0D;
+			productRefGroup = 414038161334E32F000A5B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414038141334E32F000A5B0D /* imPulse */,
+				414038411334E32F000A5B0D /* imPulseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414038131334E32F000A5B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414038261334E32F000A5B0D /* InfoPlist.strings in Resources */,
+				414038321334E32F000A5B0D /* MainWindow.xib in Resources */,
+				414038371334E32F000A5B0D /* MainView.xib in Resources */,
+				4140383C1334E32F000A5B0D /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4140383F1334E32F000A5B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4140384E1334E330000A5B0D /* InfoPlist.strings in Resources */,
+				414038511334E330000A5B0D /* imPulseTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		414038401334E32F000A5B0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414038111334E32F000A5B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414038291334E32F000A5B0D /* main.m in Sources */,
+				4140382C1334E32F000A5B0D /* imPulseAppDelegate.m in Sources */,
+				4140382F1334E32F000A5B0D /* imPulse.xcdatamodeld in Sources */,
+				414038351334E32F000A5B0D /* MainViewController.m in Sources */,
+				4140383A1334E32F000A5B0D /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4140383D1334E32F000A5B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414038531334E330000A5B0D /* imPulseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		414038481334E330000A5B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 414038141334E32F000A5B0D /* imPulse */;
+			targetProxy = 414038471334E330000A5B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		414038241334E32F000A5B0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414038251334E32F000A5B0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		414038301334E32F000A5B0D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414038311334E32F000A5B0D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4140384C1334E330000A5B0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4140384D1334E330000A5B0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		414038541334E330000A5B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		414038551334E330000A5B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		414038571334E330000A5B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imPulse/imPulse-Prefix.pch";
+				INFOPLIST_FILE = "imPulse/imPulse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		414038581334E330000A5B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imPulse/imPulse-Prefix.pch";
+				INFOPLIST_FILE = "imPulse/imPulse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4140385A1334E330000A5B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imPulse.app/imPulse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imPulseTests/imPulseTests-Prefix.pch";
+				INFOPLIST_FILE = "imPulseTests/imPulseTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4140385B1334E330000A5B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imPulse.app/imPulse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imPulseTests/imPulseTests-Prefix.pch";
+				INFOPLIST_FILE = "imPulseTests/imPulseTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4140380F1334E32F000A5B0D /* Build configuration list for PBXProject "imPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414038541334E330000A5B0D /* Debug */,
+				414038551334E330000A5B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414038561334E330000A5B0D /* Build configuration list for PBXNativeTarget "imPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414038571334E330000A5B0D /* Debug */,
+				414038581334E330000A5B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		414038591334E330000A5B0D /* Build configuration list for PBXNativeTarget "imPulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4140385A1334E330000A5B0D /* Debug */,
+				4140385B1334E330000A5B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4140382D1334E32F000A5B0D /* imPulse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4140382E1334E32F000A5B0D /* imPulse.xcdatamodel */,
+			);
+			currentVersion = 4140382E1334E32F000A5B0D /* imPulse.xcdatamodel */;
+			path = imPulse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4140380C1334E32F000A5B0D /* Project object */;
+}
