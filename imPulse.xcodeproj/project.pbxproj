@@ -27,6 +27,10 @@
 		4140384E1334E330000A5B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4140384C1334E330000A5B0D /* InfoPlist.strings */; };
 		414038511334E330000A5B0D /* imPulseTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 414038501334E330000A5B0D /* imPulseTests.h */; };
 		414038531334E330000A5B0D /* imPulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414038521334E330000A5B0D /* imPulseTests.m */; };
+		41ED516213352181001B5B8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ED515F133520C5001B5B8A /* Default@2x.png */; };
+		41ED516413352187001B5B8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ED516313352187001B5B8A /* Default.png */; };
+		41ED5168133521F0001B5B8A /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ED5166133521F0001B5B8A /* Background.png */; };
+		41ED5169133521F0001B5B8A /* Background@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ED5167133521F0001B5B8A /* Background@x2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		4140384F1334E330000A5B0D /* imPulseTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imPulseTests-Prefix.pch"; sourceTree = "<group>"; };
 		414038501334E330000A5B0D /* imPulseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imPulseTests.h; sourceTree = "<group>"; };
 		414038521334E330000A5B0D /* imPulseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imPulseTests.m; sourceTree = "<group>"; };
+		41ED515F133520C5001B5B8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		41ED516313352187001B5B8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		41ED5166133521F0001B5B8A /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		41ED5167133521F0001B5B8A /* Background@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@x2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +104,13 @@
 		4140380A1334E32F000A5B0D = {
 			isa = PBXGroup;
 			children = (
+				41ED516313352187001B5B8A /* Default.png */,
+				41ED515F133520C5001B5B8A /* Default@2x.png */,
 				414038211334E32F000A5B0D /* imPulse */,
 				414038491334E330000A5B0D /* imPulseTests */,
 				414038181334E32F000A5B0D /* Frameworks */,
 				414038161334E32F000A5B0D /* Products */,
+				41ED5165133521D4001B5B8A /* Graphics */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +181,15 @@
 				4140384F1334E330000A5B0D /* imPulseTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41ED5165133521D4001B5B8A /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				41ED5166133521F0001B5B8A /* Background.png */,
+				41ED5167133521F0001B5B8A /* Background@x2.png */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +266,10 @@
 				414038321334E32F000A5B0D /* MainWindow.xib in Resources */,
 				414038371334E32F000A5B0D /* MainView.xib in Resources */,
 				4140383C1334E32F000A5B0D /* FlipsideView.xib in Resources */,
+				41ED516213352181001B5B8A /* Default@2x.png in Resources */,
+				41ED516413352187001B5B8A /* Default.png in Resources */,
+				41ED5168133521F0001B5B8A /* Background.png in Resources */,
+				41ED5169133521F0001B5B8A /* Background@x2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +486,7 @@
 				414038581334E330000A5B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		414038591334E330000A5B0D /* Build configuration list for PBXNativeTarget "imPulseTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +495,7 @@
 				4140385B1334E330000A5B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
