@@ -29,12 +29,6 @@
     // Add the main view controller's view to the window and display.
     self.window.rootViewController = self.mainViewController;
     
-    UIView *backgroundView = [[UIView alloc] initWithFrame: self.window.frame];
-    backgroundView.backgroundColor = [UIColor colorWithPatternImage:
-                                      [UIImage imageNamed:@"Background.png"]];
-    [self.window addSubview:backgroundView];
-    [backgroundView release];
-    
     [self.window makeKeyAndVisible];
     return YES;
 }

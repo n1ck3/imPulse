@@ -88,7 +88,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.45254834"
-     inkscape:cx="1255.0078"
+     inkscape:cx="963.32625"
      inkscape:cy="197.97344"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
@@ -97,7 +97,7 @@
      inkscape:window-height="752"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata3654">
     <rdf:RDF>
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -122,7 +122,7 @@
        id="image4861"
        height="393.67126"
        width="525.10876"
-       xlink:href="file:///Users/nicke/Desktop/imPulse/276420509_293b104a0e_o.jpeg"
+       xlink:href="file:///Users/nicke/dev/imPulse/_source/skyline.jpg"
        clip-path="url(#clipPath4865)"
        transform="matrix(2.0825893,0,0,2.1383929,355.30696,-292.46953)" />
     <path
@@ -174,7 +174,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Loading"
-     style="display:inline">
+     style="display:none">
     <flowRoot
        xml:space="preserve"
        id="flowRoot2864"
@@ -193,15 +193,15 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Textarea"
-     style="display:none">
+     style="display:inline">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff06a5;stroke-width:2;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff06a5;stroke-width:2.13675141;stroke-opacity:1"
        id="rect3663"
-       width="448.57086"
-       height="267.37476"
-       x="908.40442"
-       y="406.11859"
-       ry="13.258252"
+       width="499.25739"
+       height="274.20468"
+       x="883.0611"
+       y="384.70364"
+       ry="13.596926"
        inkscape:export-filename="/Users/nicke/Desktop/Default.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
